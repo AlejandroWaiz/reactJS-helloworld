@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import { Greetings } from "./Greeting";
+import { Greetings, GetPokemonData } from "./Greeting";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
 
 root.render(
     <div>
-        <Greetings/>
+        <Greetings greet="Hola cosita linda" name="Lissi"/>
+        <GetPokemonData></GetPokemonData>
     </div>
 );
