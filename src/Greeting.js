@@ -13,9 +13,10 @@
 
  export function GetPokemonData(){
     return <button onClick={() => {
-        fetch("localhost:3333")
+        fetch("http://localhost:4000/pokemon")
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(json => console.log(json))
+
     }}>
 
     </button>
