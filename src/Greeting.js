@@ -9,7 +9,7 @@ export function Greetings({ greet, name = "user" }) {
   return (
     <div>
       <h1>
-        {greet} preciosa {name}
+        {greet} wn {name}
       </h1>
     </div>
   );

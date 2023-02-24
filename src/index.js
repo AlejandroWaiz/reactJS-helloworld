@@ -5,18 +5,12 @@ import { ShowPokemonComponent } from "./pokemonsComponent";
 
 const root = ReactDom.createRoot(document.getElementById("root"));
 
-
 root.render(
-    <div>
-        <nav className="menu">
-  <ul>x
-    <li>Inicio</li>
-    <li>Sobre nosotros</li>
-    <li>Contacto</li>
-  </ul>
-</nav>
-
-        <Greetings greet="Hola cosita linda" name=""/>
-        <ShowPokemonComponent/>
-    </div>
+  <div>
+    <Greetings greet="Hola po" name="" />
+    <ShowPokemonComponent />
+    <footer>
+      <small>&copy; Todos los derechos reservados</small>
+    </footer>
+  </div>
 );
